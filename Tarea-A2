@@ -1,0 +1,183 @@
+# presentacion
+
+** Cristobal
+** cabezas vargas
+** córdoba
+
+## Mis hobbies
+-dibujar
+-Tatuar
+-Salir
+
+## redes sociales
+-instagram
+-whatsapp
+-ejemplo@gmail.com
+
+## cita favorita
+> salir de paseo nocturno
+
+![una foto de mi](/gato.jpg)
+
+
+
+
+
+
+# 1 ¿Qué es un lenguaje de marcas?
+
+Un lenguaje de marcas es un sistema de notación diseñado para anotar un documento de manera que se pueda distinguir entre su contenido y su estructura o formato
+
+## 2 Características generales de los lenguajes de marcas
+
+**Estructuración**: Permiten organizar la información en jerarquías mediante etiquetas.
+
+**Legibilidad**: Suelen ser legibles tanto para humanos como para máquinas.
+
+**Extensibilidad**: Muchos lenguajes de marcas permiten la creación de etiquetas personalizadas.
+
+**Interoperabilidad**: Facilitan el intercambio de datos entre diferentes sistemas y plataformas.
+
+**Separación de contenido y presentación**: Permiten definir contenido sin preocuparse por cómo se mostrará.
+
+## 3 Clasificación de los lenguajes de marcas
+
+Los lenguajes de marcas pueden clasificarse en varias categorías:
+
+-Lenguajes de presentación**: Se enfocan en formatear contenido (ej. HTML, XML).-Lenguajes de datos**: Se utilizan para estructurar datos (ej. JSON, XML).
+-Lenguajes de configuración**: Usados para configurar aplicaciones (ej. YAML, INI).
+-Lenguajes de intercambio**: Diseñados para el intercambio de información (ej. RSS, iCalendar).
+
+## Lenguajes de marcas más relevantes: 
+**HTML, XML, JSON, SVG, Markdown, RSS, iCalendar, vCard**
+
+
+## 5 inserta un trozo de codigo de cada lenguaje de marcas
+
+**1 HTML**
+
+html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de HTML</title>
+</head>
+<body>
+    <h1>Bienvenido a mi sitio web</h1>
+    <p>Este es un párrafo de texto en HTML.</p>
+    <a href="https://www.ejemplo.com">Visita mi sitio</a>
+</body>
+</html>
+
+**2 iCalendar**
+
+ical
+BEGIN:VCALENDAR
+VERSION:2.
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:123456@example.com
+
+
+**3 vCard**
+
+vcard
+BEGIN:VCARD
+VERSION:3.
+FN:Juan Pérez
+
+
+**4 KML**
+
+kml
+<?xml version="1." encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">;
+    <Placemark>
+        <name>Parque Central</name>
+        <description>Un hermoso parque en el centro de la ciudad.</description>
+        <Point>
+            <coordinates>-73.9857,40.7484,</coordinates>
+        </Point>
+    </Placemark>
+</kml>
+
+
+**5 RSS**
+
+xml
+<?xml version="1." encoding="UTF-8" ?>
+<rss version="2.">
+    <channel>
+        <title>Blog de Tecnología</title>
+        <link>https://www.ejemplo.com</link>;
+        <description>Últimas noticias sobre tecnología.</description>
+        <item>
+            <title>Nuevo Smartphone 2023</title>
+            <link>https://www.ejemplo.com/nuevo-smartphone</link>;
+            <description>Descubre las características del nuevo smartphone del año.</description>
+            <pubDate>Mon, 01 Oct 2023 12:00:00 +000</pubDate>
+        </item>
+    </channel>
+</rss>
+
+
+
+### UD1 A2.LENGUAJES DE MARCAS
+
+# 1 Evolucion de los lenguajes de marcas
+
+**Los lenguajes de marcas surgieron como códigos de formato para procesadores de texto, inicialmente ligados a características específicas de máquinas y programas. Con el tiempo, estos códigos se adaptaron para la presentación en pantalla y su utilización se automatizó. Aunque su función original era la presentación de información, se comenzaron a explorar nuevas aplicaciones del marcado, lo que llevó al desarrollo de un formato más generalizado que resolvía diversas necesidades.**
+
+
+
+## 2 Ventajas/Desventajas
+
+**ventajas**
+-permitir describir hipertexto de forma sencilla.
+-presentar texto de manera estructurada y agradable.
+-requerir poco conocimiento con un editor adecuado.
+
+**desventajas**
+-No soporta tareas de impresión y diseño.
+-El lenguaje no es flexible, ya que las etiquetas son limitadas.
+-No permite mostrar contenido dinámico.
+-La estructura y el diseño están mezclados en el documento.
+
+
+
+## 3 Organismos y estadares
+
+
+# W3C
+
+**Organismo**
+-Organización internacional fundada en 1994 por Tim Berners-Lee, dedicada a la estandarización de tecnologías web.
+
+
+**Objetivos**: 
+-Crear estándares abiertos (como HTML, CSS, XML), promover interoperabilidad y asegurar acceso a la Web para todos.
+
+
+**Ejemplos de estándares**
+-HTML
+-CSS
+-SVG
+
+## WHATWG
+
+**Organismo**
+-Grupo de trabajo fundado en 2004, centrado en la evolución de HTML y tecnologías relacionadas.
+
+**Objetivos**
+-Desarrollar HTML Living Standard
+-Fomentar colaboración entre navegadores y desarrolladores
+-Permitir un desarrollo ágil de nuevas características.
+
+**Ejemplos de estándares**
+-HTML Living Standard
+-Fetch API
+
+
+
+
